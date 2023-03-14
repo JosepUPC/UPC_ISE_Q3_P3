@@ -1,0 +1,7 @@
+# PlanAhead Generated physical constraints 
+NET bckin LOC = A10;
+NET clk LOC = C9;
+NET din LOC = B4;
+NET dout LOC = A4;
+NET lrcin LOC = C5;
+NET reset LOC = L13;
