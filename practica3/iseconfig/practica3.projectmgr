@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="practica3" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/P3_codec - P3_codec_Beh |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_codec.vhd/P3_codec_C1 - S2P_all - S2P_all_beh</ClosedNode>
+         <ClosedNode>/P3_codec - P3_codec_Beh |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_codec.vhd/P3_codec_C2 - P3_uc - P3_uc_Beh</ClosedNode>
+         <ClosedNode>/P3_codec - P3_codec_Beh |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_codec.vhd/P3_codec_C2 - P3_uc - P3_uc_Beh/P3_uc_C1 - Falling_edge_VHDL - Behavioral</ClosedNode>
+         <ClosedNode>/P3_codec - P3_codec_Beh |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_codec.vhd/P3_codec_C2 - P3_uc - P3_uc_Beh/P3_uc_C3 - Rising_edge_VHDL - Behavioral</ClosedNode>
+         <ClosedNode>/P3_codec - P3_codec_Beh |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_codec.vhd/P3_codec_C2 - P3_uc - P3_uc_Beh/P3_uc_C4 - Rising_edge_VHDL - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>P3_codec - P3_codec_Beh (/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c2000000020000000000000000000000000000000064ffffffff000000810000000000000002000001c20000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>P3_codec - P3_codec_Beh (/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000301000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004d00000001000000000000003500000001000000000000007b0000000100000000000002040000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000132000000010001000100000000000000000000000064ffffffff000000810000000000000001000001320000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Manage Configuration Project (iMPACT)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >10</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Manage Configuration Project (iMPACT)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/P3_S2P_buffer_tb - behavior |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_S2P_buffer_tb.vhd</ClosedNode>
+         <ClosedNode>/P3_S2P_tb - behavior |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_S2P_tb.vhd</ClosedNode>
+         <ClosedNode>/P3_codec - P3_codec_Beh |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_codec.vhd/P3_codec_C2 - P3_uc - P3_uc_Beh</ClosedNode>
+         <ClosedNode>/P3_p2s_core_tb - behavior |home|student|Desktop|UPC_ISE_Q3_P3-main|P3_p2s_core_tb.vhd</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>P3_S2P_buffer_tb - behavior (/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_buffer_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000207000000020000000000000000000000000000000064ffffffff000000810000000000000002000002070000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>P3_S2P_buffer_tb - behavior (/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_buffer_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>User Constraints</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>User Constraints</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011b01000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

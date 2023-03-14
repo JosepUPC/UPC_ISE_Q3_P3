@@ -1,0 +1,62 @@
+V3 35
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd 2020/03/01.19:10:30 M.81d
+EN work/DFF_VHDL 1678822834 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/DFF_VHDL/Behavioral 1678822835 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd \
+      EN work/DFF_VHDL 1678822834
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd 2013/03/19.11:49:44 M.81d
+EN work/Falling_edge_VHDL 1678822836 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/Falling_edge_VHDL/Behavioral 1678822837 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd \
+      EN work/Falling_edge_VHDL 1678822836 CP DFF_VHDL
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd 2023/03/14.18:56:21 M.81d
+EN work/P3_codec 1678822850 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_codec/P3_codec_Beh 1678822851 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd EN work/P3_codec 1678822850 \
+      CP S2P_all CP P3_uc CP P3_p2s_core
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd 2023/03/14.18:32:54 M.81d
+EN work/P3_p2s_core 1678822848 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/P3_p2s_core/P3_p2s_core_beh 1678822849 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd \
+      EN work/P3_p2s_core 1678822848
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd 2023/03/14.18:32:54 M.81d
+EN work/P3_S2P 1678822840 FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_S2P/P3_S2P_beh 1678822841 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd EN work/P3_S2P 1678822840
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd 2023/03/14.18:54:57 M.81d
+EN work/S2P_all 1678822844 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/S2P_all/S2P_all_beh 1678822845 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd EN work/S2P_all 1678822844 \
+      CP P3_S2P CP S2P_buffer
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd 2023/03/14.18:32:54 M.81d
+EN work/S2P_buffer 1678822842 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/S2P_buffer/S2P_buffer_beh 1678822843 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd \
+      EN work/S2P_buffer 1678822842
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd 2023/03/14.19:01:50 M.81d
+EN work/P3_uc 1678822846 FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_uc/P3_uc_Beh 1678822847 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd EN work/P3_uc 1678822846 \
+      CP Falling_edge_VHDL CP Rising_edge_VHDL
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd 2013/03/19.11:28:08 M.81d
+EN work/Rising_edge_VHDL 1678822838 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/Rising_edge_VHDL/Behavioral 1678822839 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd \
+      EN work/Rising_edge_VHDL 1678822838 CP DFF_VHDL
