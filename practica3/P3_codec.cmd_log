@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+xst -intstyle ise -ifn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.xst" -ofn "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o P3_codec_map.ncd P3_codec.ngd P3_codec.pcf 
+par -w -intstyle ise -ol high -t 1 P3_codec_map.ncd P3_codec.ncd P3_codec.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml P3_codec.twx P3_codec.ncd -o P3_codec.twr P3_codec.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc P3_codec.ucf -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o P3_codec_map.ncd P3_codec.ngd P3_codec.pcf 
+par -w -intstyle ise -ol high -t 1 P3_codec_map.ncd P3_codec.ncd P3_codec.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml P3_codec.twx P3_codec.ncd -o P3_codec.twr P3_codec.pcf -ucf P3_codec.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc P3_codec.ucf -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc P3_codec.ucf -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc P3_codec.ucf -p xc3s200-ft256-4 P3_codec.ngc P3_codec.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o P3_codec_map.ncd P3_codec.ngd P3_codec.pcf 
+par -w -intstyle ise -ol high -t 1 P3_codec_map.ncd P3_codec.ncd P3_codec.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml P3_codec.twx P3_codec.ncd -o P3_codec.twr P3_codec.pcf -ucf P3_codec.ucf 
+bitgen -intstyle ise -f P3_codec.ut P3_codec.ncd 

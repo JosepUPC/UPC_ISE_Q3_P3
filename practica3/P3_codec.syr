@@ -1,0 +1,495 @@
+Release 12.4 - xst M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: P3_codec.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "P3_codec.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "P3_codec"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : P3_codec
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd" in Library work.
+Entity <DFF_VHDL> compiled.
+Entity <DFF_VHDL> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd" in Library work.
+Entity <Falling_edge_VHDL> compiled.
+Entity <Falling_edge_VHDL> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd" in Library work.
+Entity <Rising_edge_VHDL> compiled.
+Entity <Rising_edge_VHDL> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd" in Library work.
+Architecture p3_s2p_beh of Entity p3_s2p is up to date.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd" in Library work.
+Architecture s2p_buffer_beh of Entity s2p_buffer is up to date.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd" in Library work.
+Architecture s2p_all_beh of Entity s2p_all is up to date.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd" in Library work.
+Entity <p3_uc> compiled.
+Entity <p3_uc> (Architecture <p3_uc_beh>) compiled.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd" in Library work.
+Architecture p3_p2s_core_beh of Entity p3_p2s_core is up to date.
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd" in Library work.
+Architecture p3_codec_beh of Entity p3_codec is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <P3_codec> in library <work> (architecture <p3_codec_beh>).
+
+Analyzing hierarchy for entity <S2P_all> in library <work> (architecture <s2p_all_beh>).
+
+Analyzing hierarchy for entity <P3_uc> in library <work> (architecture <p3_uc_beh>).
+
+Analyzing hierarchy for entity <P3_p2s_core> in library <work> (architecture <p3_p2s_core_beh>).
+
+Analyzing hierarchy for entity <P3_S2P> in library <work> (architecture <p3_s2p_beh>).
+
+Analyzing hierarchy for entity <S2P_buffer> in library <work> (architecture <s2p_buffer_beh>).
+
+Analyzing hierarchy for entity <Falling_edge_VHDL> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Rising_edge_VHDL> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DFF_VHDL> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <P3_codec> in library <work> (Architecture <p3_codec_beh>).
+Entity <P3_codec> analyzed. Unit <P3_codec> generated.
+
+Analyzing Entity <S2P_all> in library <work> (Architecture <s2p_all_beh>).
+Entity <S2P_all> analyzed. Unit <S2P_all> generated.
+
+Analyzing Entity <P3_S2P> in library <work> (Architecture <p3_s2p_beh>).
+Entity <P3_S2P> analyzed. Unit <P3_S2P> generated.
+
+Analyzing Entity <S2P_buffer> in library <work> (Architecture <s2p_buffer_beh>).
+Entity <S2P_buffer> analyzed. Unit <S2P_buffer> generated.
+
+Analyzing Entity <P3_uc> in library <work> (Architecture <p3_uc_beh>).
+Entity <P3_uc> analyzed. Unit <P3_uc> generated.
+
+Analyzing Entity <Falling_edge_VHDL> in library <work> (Architecture <Behavioral>).
+Entity <Falling_edge_VHDL> analyzed. Unit <Falling_edge_VHDL> generated.
+
+Analyzing Entity <DFF_VHDL> in library <work> (Architecture <Behavioral>).
+Entity <DFF_VHDL> analyzed. Unit <DFF_VHDL> generated.
+
+Analyzing Entity <Rising_edge_VHDL> in library <work> (Architecture <Behavioral>).
+Entity <Rising_edge_VHDL> analyzed. Unit <Rising_edge_VHDL> generated.
+
+Analyzing Entity <P3_p2s_core> in library <work> (Architecture <p3_p2s_core_beh>).
+Entity <P3_p2s_core> analyzed. Unit <P3_p2s_core> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <P3_p2s_core>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd".
+    Found 64-bit register for signal <signalbuffer>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <P3_p2s_core> synthesized.
+
+
+Synthesizing Unit <P3_S2P>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd".
+    Found 64-bit register for signal <reg_int>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <P3_S2P> synthesized.
+
+
+Synthesizing Unit <S2P_buffer>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd".
+WARNING:Xst:647 - Input <data_s2p<43:32>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <data_s2p<11:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 20-bit register for signal <data_L_temp>.
+    Found 20-bit register for signal <data_R_temp>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+Unit <S2P_buffer> synthesized.
+
+
+Synthesizing Unit <DFF_VHDL>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFF_VHDL> synthesized.
+
+
+Synthesizing Unit <S2P_all>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd".
+Unit <S2P_all> synthesized.
+
+
+Synthesizing Unit <Falling_edge_VHDL>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd".
+Unit <Falling_edge_VHDL> synthesized.
+
+
+Synthesizing Unit <Rising_edge_VHDL>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd".
+Unit <Rising_edge_VHDL> synthesized.
+
+
+Synthesizing Unit <P3_uc>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd".
+Unit <P3_uc> synthesized.
+
+
+Synthesizing Unit <P3_codec>.
+    Related source file is "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd".
+Unit <P3_codec> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 12
+ 1-bit register                                        : 8
+ 20-bit register                                       : 2
+ 64-bit register                                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 176
+ Flip-Flops                                            : 176
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <P3_uc>: instances <P3_uc_C2>, <P3_uc_C3> of unit <Rising_edge_VHDL> are equivalent, second instance is removed
+INFO:Xst:2261 - The FF/Latch <P3_codec_C2/P3_uc_C4/D0/q> in Unit <P3_codec> is equivalent to the following FF/Latch, which will be removed : <P3_codec_C2/P3_uc_C1/D0/q> 
+INFO:Xst:2261 - The FF/Latch <P3_codec_C2/P3_uc_C4/D1/q> in Unit <P3_codec> is equivalent to the following FF/Latch, which will be removed : <P3_codec_C2/P3_uc_C1/D1/q> 
+
+Optimizing unit <P3_codec> ...
+
+Optimizing unit <P3_p2s_core> ...
+
+Optimizing unit <P3_S2P> ...
+
+Optimizing unit <S2P_buffer> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block P3_codec, actual ratio is 5.
+FlipFlop P3_codec_C2/P3_uc_C2/D0/q has been replicated 1 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop P3_codec_C2/P3_uc_C2/D0/q connected to a primary input has been replicated
+FlipFlop P3_codec_C2/P3_uc_C2/D1/q has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <P3_codec> :
+	Found 13-bit shift register for signal <P3_codec_C1/S2P_all_C1/reg_int_44>.
+	Found 12-bit shift register for signal <P3_codec_C1/S2P_all_C1/reg_int_12>.
+Unit <P3_codec> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 149
+ Flip-Flops                                            : 149
+# Shift Registers                                      : 2
+ 12-bit shift register                                 : 1
+ 13-bit shift register                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : P3_codec.ngr
+Top Level Output File Name         : P3_codec
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 74
+#      GND                         : 1
+#      LUT2                        : 6
+#      LUT3                        : 25
+#      LUT4                        : 41
+#      VCC                         : 1
+# FlipFlops/Latches                : 165
+#      FDCE                        : 157
+#      FDE                         : 2
+#      FDR                         : 6
+# Shift Registers                  : 2
+#      SRL16E                      : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 4
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                       96  out of   1920     5%  
+ Number of Slice Flip Flops:            165  out of   3840     4%  
+ Number of 4 input LUTs:                 74  out of   3840     1%  
+    Number used as logic:                72
+    Number used as Shift registers:       2
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    173     3%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 167   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 157   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.999ns (Maximum Frequency: 200.029MHz)
+   Minimum input arrival time before clock: 4.451ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.999ns (frequency: 200.029MHz)
+  Total number of paths / destination ports: 781 / 323
+-------------------------------------------------------------------------
+Delay:               4.999ns (Levels of Logic = 1)
+  Source:            P3_codec_C2/P3_uc_C4/D1/q (FF)
+  Destination:       P3_codec_C1/S2P_all_C1/reg_int_63 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: P3_codec_C2/P3_uc_C4/D1/q to P3_codec_C1/S2P_all_C1/reg_int_63
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.720   1.256  P3_codec_C2/P3_uc_C4/D1/q (P3_codec_C2/P3_uc_C4/D1/q)
+     LUT2:I0->O           35   0.551   1.870  P3_codec_C2/P3_uc_C1/temp1 (S_enable_s2p)
+     FDCE:CE                   0.602          P3_codec_C1/S2P_all_C1/reg_int_45
+    ----------------------------------------
+    Total                      4.999ns (1.873ns logic, 3.126ns route)
+                                       (37.5% logic, 62.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.451ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       P3_codec_C2/P3_uc_C2/D1/q (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to P3_codec_C2/P3_uc_C2/D1/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           163   0.821   2.604  reset_IBUF (reset_IBUF)
+     FDR:R                     1.026          P3_codec_C2/P3_uc_C4/D1/q
+    ----------------------------------------
+    Total                      4.451ns (1.847ns logic, 2.604ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            P3_codec_C3/signalbuffer_63 (FF)
+  Destination:       din (PAD)
+  Source Clock:      clk rising
+
+  Data Path: P3_codec_C3/signalbuffer_63 to din
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.720   0.801  P3_codec_C3/signalbuffer_63 (P3_codec_C3/signalbuffer_63)
+     OBUF:I->O                 5.644          din_OBUF (din)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.28 secs
+ 
+--> 
+
+
+Total memory usage is 335872 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
