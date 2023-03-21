@@ -1,0 +1,5 @@
+set -tmpdir "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/xst/projnav.tmp"
+set -xsthdpdir "/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/xst"
+elaborate
+-ifn P3_p2s_core.prj
+-ifmt mixed

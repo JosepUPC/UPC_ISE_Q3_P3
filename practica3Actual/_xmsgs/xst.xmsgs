@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">salida</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Comptador</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">suma</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Comptador</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">data_s2p&lt;43:32&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">data_s2p&lt;11:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">enable_load_p2s</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">P3_uc</arg>&gt;: instances &lt;<arg fmt="%s" index="2">P3_uc_C2</arg>&gt;, &lt;<arg fmt="%s" index="3">P3_uc_C3</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Rising_edge_VHDL</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">P3_codec_C2/P3_uc_C4/D0/q</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">P3_codec</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;P3_codec_C2/P3_uc_C1/D0/q&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">P3_codec_C2/P3_uc_C4/D1/q</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">P3_codec</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;P3_codec_C2/P3_uc_C1/D1/q&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="new" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">P3_codec_C2/P3_uc_C2/D0/q</arg> connected to a primary input has been replicated
+</msg>
+
+</messages>
+

@@ -1,0 +1,38 @@
+Release 12.4 - xst M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd" in Library work.
+Architecture p3_p2s_core_beh of Entity p3_p2s_core is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+
+
+Total memory usage is 302240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

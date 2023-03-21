@@ -1,0 +1,77 @@
+V3 43
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd 2023/03/14.20:49:40 M.81d
+EN work/DFF_VHDL 1679425224 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/DFF_VHDL/Behavioral 1679425225 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/D_basc_VHDL.vhd \
+      EN work/DFF_VHDL 1679425224
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd 2023/03/14.20:49:40 M.81d
+EN work/Falling_edge_VHDL 1679425228 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/Falling_edge_VHDL/Behavioral 1679425229 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Falling_edge_VHDL.vhd \
+      EN work/Falling_edge_VHDL 1679425228 CP DFF_VHDL
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd 2023/03/21.18:36:07 M.81d
+EN work/P3_codec 1679425242 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_codec/P3_codec_Beh 1679425243 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_codec.vhd EN work/P3_codec 1679425242 \
+      CP S2P_all CP P3_uc CP P3_p2s_core
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd 2023/03/21.20:00:18 M.81d
+EN work/P3_p2s_core 1679425240 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/P3_p2s_core/P3_p2s_core_beh 1679425241 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_p2s_core.vhd \
+      EN work/P3_p2s_core 1679425240 CP P3_p2s_buffer
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd 2023/03/14.20:49:40 M.81d
+EN work/P3_S2P 1679425232 FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_S2P/P3_S2P_beh 1679425233 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P.vhd EN work/P3_S2P 1679425232
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd 2023/03/21.18:36:01 M.81d
+EN work/S2P_all 1679425236 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/S2P_all/S2P_all_beh 1679425237 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_all.vhd EN work/S2P_all 1679425236 \
+      CP P3_S2P CP S2P_buffer
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd 2023/03/14.20:49:40 M.81d
+EN work/S2P_buffer 1679425234 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/S2P_buffer/S2P_buffer_beh 1679425235 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_S2P_Buffer.vhd \
+      EN work/S2P_buffer 1679425234
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd 2023/03/21.18:36:36 M.81d
+EN work/P3_uc 1679425238 FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_uc/P3_uc_Beh 1679425239 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/P3_uc.vhd EN work/P3_uc 1679425238 \
+      CP Falling_edge_VHDL CP Rising_edge_VHDL
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/Comptador.vhd 2023/03/21.19:58:28 M.81d
+EN work/Comptador 1679425222 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/Comptador.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/Comptador/Beh_comp 1679425223 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/Comptador.vhd \
+      EN work/Comptador 1679425222
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_p2s_buffer.vhd 2023/03/21.20:00:06 M.81d
+EN work/P3_p2s_buffer 1679425226 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_p2s_buffer.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/P3_p2s_buffer/Ppb_beh 1679425227 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_p2s_buffer.vhd \
+      EN work/P3_p2s_buffer 1679425226 CP Comptador
+FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd 2023/03/14.20:49:40 M.81d
+EN work/Rising_edge_VHDL 1679425230 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/Rising_edge_VHDL/Behavioral 1679425231 \
+      FL /home/student/Desktop/UPC_ISE_Q3_P3-main/Rising_edge_VHDL.vhd \
+      EN work/Rising_edge_VHDL 1679425230 CP DFF_VHDL

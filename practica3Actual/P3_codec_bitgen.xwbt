@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.ncd
+OUTFILE=/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3/P3_codec.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/student/Desktop/UPC_ISE_Q3_P3-main/practica3
+LICENSE=ISE
+USER_INFO=200816021_210546595_900
